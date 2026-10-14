@@ -1,53 +1,13 @@
-# Problem Hook & Value Proposition: [StreamLine / RouteLogic / your initiative]
+# Problem Hook & Value Proposition (Module 1)
 
-> **Module 1 · ★ Deliverable 1.** Repo file `01-product-thinking/problem-hook.md` — part of your submission.
-> Do the lab in the **Module 1 · Exercise 2 Guide** (linked from the Module 1 deck), then click **⬇ Download .md** — it saves as this exact file. Commit it here.
-> It becomes the **Problem, Value & Hypothesis** slide of your Module 6 final deck. (Your Module 1 · Exercise 1 discovery map lands in `strategic-map.md`.)
+## Responses
+- **Chosen path, which scenario are you committing to? (StreamLine or RouteLogic, or your own):** StreamLine
+- **Strategic crisis, based on the brief, if the company does nothing for 12 months, what happens to its market position?:** If StreamLine does nothing, churn accelerates. Its advantage was volume, but the market has moved to curation, and more titles no longer win subscribers. The loyal, high-value viewers keep leaving for smaller specialized services, and within 12 months StreamLine slides from market leader to a commodity library competing on price instead of taste. The library keeps growing while its authority as a place for discovery disappears.
+- **Moment of misery, what is the user likely doing outside the product (Google, spreadsheets, a competitor) because your tool isn’t serving them?:** After scrolling for ten minutes without finding anything worth watching, the viewer gives up and looks elsewhere. They Google “best movies to watch,” check Reddit or ask a friend, or open a curated competitor like Mubi or Criterion that simply tells them what’s good. The decision of what to watch is happening outside StreamLine, which is the real failure.
+- **Problem hook, summarize the business risk and user pain into one urgent sentence.:** StreamLine’s library keeps growing while engagement flatlines, because viewers don’t need more titles, they need help finding the few worth watching, and every minute they spend lost in the catalog is a minute closer to canceling.
+- **Value proposition, based on the proposed initiative (Spotlight or Velocity), what is the new value and why is it urgent to launch now?:** Spotlight gives StreamLine’s most valuable viewers a curated, human-centered space that surfaces films worth their time instead of burying them in 15,000 titles. Less time searching, more time watching, and a real reason to stay. It’s urgent now because churn is already climbing and curated competitors are actively taking the high-value segment StreamLine can least afford to lose. Every quarter of delay hands them more of those viewers, and they do not come back.
 
-## 1. Chosen scenario
-
-**Path:** _StreamLine Spotlight (B2C) · RouteLogic Velocity (B2B) · my own initiative_
-
-_One line on why you picked it._
-
-## 2. The strategic crisis
-
-_The big-picture business risk. If the company does nothing for 12 months, what happens to its market position?_
-
-> If we do nothing for 12 months, the company will…
-
-## 3. The moment of misery
-
-_The specific point where the product fails the user, forcing a manual workaround (Google, spreadsheets, group texts, a competitor)._
-
-> The user is currently forced to…
-
-## 4. Problem hook
-
-_One urgent sentence fusing the business risk and the user pain, your pitch for why this is the most important thing to work on right now._
-
-> We must solve [business risk] by addressing [user pain]…
-
-## 5. Value proposition
-
-_Who it's for, the new value, and why it's urgent to launch now._
-
-> For **[who]**, we will **[value]** because **[urgent why]**.
-
-## 6. Cold-read self-review
-
-_Read your hook back as a skeptical stakeholder. If you don't feel the urgency, that's your data._
-
-| Question | Your answer |
-|---|---|
-| Is the business risk high-stakes enough to justify a new initiative? | _____ |
-| Is the moment of misery systemic, or just an edge case? | _____ |
-| Does the value proposition actually remove the obstacle? | _____ |
-
-## 7. Finalized hypothesis _(complete in Module 3)_
-
-> Based on [qual + quant evidence], I believe that [solving X] for [persona] will result in [outcome], as measured by a [X%] change in [success metric]. I will protect [guardrail metric] and make a go/no-go decision after [decision window].
-
-## Link to full artifact
-
-_[link to your Problem Hook Builder export]_
+## Cold-read your own hook
+- **Is the business risk high enough to justify a new initiative, a high-stakes threat, or a minor inconvenience?:** Yes, high stakes. The loyal, high-value viewers are the hardest to replace and the most expensive to reacquire. Losing them to curated competitors drains both revenue and StreamLine’s reputation as a discovery destination, and that decline compounds. This is a threat to the core business, not a minor inconvenience.
+- **Is the moment of misery a systemic problem or just an edge case?:** Systemic. The problem is baked into the strategy. StreamLine’s answer to every gap has been to add more content, but more titles make discovery harder, not easier. Every viewer who values quality over volume hits the same wall. It’s structural.
+- **Does the value proposition actually remove the obstacle you identified, or is it a generic feature?:** It removes it. The pain is “I can’t find anything worth watching,” and curation attacks that directly rather than bolting on another generic feature. The one risk to stay honest about: the curation has to be genuinely good. A weak curated section is just one more row to scroll past.
