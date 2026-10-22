@@ -6,42 +6,29 @@
 
 ## Responses
 
-- **Role, who are you solving for?:** Priya (34, 14-year heavy viewer), Beth (60), and the older focus group are engaged subscribers who open the app wanting to watch but can’t convert intent into a choice.
-- **Goal, what is this user ultimately trying to achieve?:** To quickly land on something that fits the moment (“quiet Sunday,” “something my book club would like”) and actually press play, instead of treating discovery as a chore.
-- **Friction, the main barrier (moment of misery) stopping them:** The catalog’s volume paralyzes them. Priya scrolls twenty minutes through 15,000 titles and goes back to a DVD, and the focus group says the sheer number of choices makes them anxious enough to want someone to “just tell me what’s good tonight.” This is your pre-churn persona. Still paying, but disengaging, and the one Spotlight has to catch before she becomes Tom.
-- **External tools the user is forced to use:** The workaround: outsourcing discovery to anything but StreamLine
+- **Role, who are you solving for?:** Role: A long-tenured heavy viewer who used to trust StreamLine to deliver and now leaves empty-handed. (Priya, UXR-01; reinforced by Marcus, UXR-02.)
+- **Goal, what is this user ultimately trying to achieve?:** Goal: To open the app and reliably land on something worth her evening, without the search becoming the work.
+- **Friction, the main barrier (moment of misery) stopping them:** Friction — the moment of misery: She scrolls for twenty minutes through 15,000 titles and closes the app having watched nothing, then falls back to a DVD. The library’s size is the enemy, not the asset. This is the hook made flesh: maximum catalog, zero payoff, and a loyal viewer actively routing around the product.
+- **External tools the user is forced to use:** External Tool is a physical DVD the persona already owns.
+- **The process, the 3–5 manual steps they take:** The process
 
-When the catalog paralyzes them, these users don’t solve the problem inside the app. They leave to get the decision made somewhere else, then either come back or don’t. From the research, the workaround takes three forms:
-
-They fall back to what they already know. Aisha re-watches the same four comfort shows rather than face the chore of finding something new. Priya abandons the app entirely and goes back to a DVD. The “workaround” for a 15,000-title library is to ignore 14,996 of them.
-They ask a human. Sam trusts a friend’s recommendation over the algorithm. The focus group wants someone to “just tell me what’s good tonight.” They’re substituting human judgment for the product’s broken discovery.
-They let a competitor curate for them. Tom’s hand-picked-email service is the fully evolved version of this workaround: another company now does StreamLine’s discovery job, two films a week, and he watches both.
-- **The process, the 3–5 manual steps they take:** The specific steps (Priya’s loop)
-Opens StreamLine intending to watch something.
-Scrolls the home rows, which are “loud and new” (Beth) and organized by what the algorithm pushes, not by mood or occasion.
-Tries to narrow it down, but descriptive search fails. “Slow quiet French drama” returns a Fast & Furious film (Lucia), and there’s no way to browse by “quiet Sunday.”
-Keeps scrolling. Ten to twenty minutes pass. Decision fatigue sets in; the volume creates anxiety, not choice.
-Gives up on the app. Closes it and either re-watches a known title, asks a person, or goes to a DVD or a competitor.
-- **Core frustration, where the process feels most "broken":** Why the workaround is inefficient
-It wastes the user’s time before they’ve watched anything. The twenty-minute scroll is pure cost, no payoff. The effort happens up front and often returns nothing.
-It defeats the entire value of the catalog. StreamLine’s one asset is 15,000 titles. The workaround is to deliberately avoid almost all of them. The user pays for a library and uses a shelf.
-It moves the core job outside the product. The decision of what to watch, which should be StreamLine’s to own, now happens on Reddit, in a text to a friend, or in a competitor’s inbox. The product has been reduced to a playback utility that someone else points at.
-It’s unreliable and effortful every single time. There’s no system to it. Each session restarts the same fatigue, so the workaround never gets easier, it just gets more discouraging.
-- **The evidence, a quote or behavior from the research:** Priya (34, heavy viewer, 14 yrs) — the paralysis and the abandonment
-“I open the app, scroll for like twenty minutes, and close it without watching anything. There’s 15,000 titles but nothing I actually want. I ended up going back to a DVD.”
-
-This one quote carries the whole persona: the scroll, the volume, the give-up, the workaround (DVD).
-
-The older focus group (aggregate) — the anxiety and the plea for curation
-“Three of six participants said the sheer number of choices made them anxious and they’d rather someone ‘just tell me what’s good tonight.’”
-
-The “just tell me what’s good tonight” fragment is your single strongest line. It’s the persona’s goal stated in their own words.
-
-Beth (60) — can’t browse by mood or occasion
-“Everything on the home screen is loud and new. I want ‘quiet Sunday’ or ‘something my book club would like’. There’s no way to browse by mood.”
-
-This is the “fits the moment” part of the goal, verbatim.
-
-Aisha (27, casual) — discovery as a chore, retreat to the familiar
-“Honestly I just re-watch the same four comfort shows. Discovering anything new feels like a chore, so I don’t.”
-- **Journey map, a shareable link or the map file you committed:** 
+Opens StreamLine and scrolls the full catalog for ~20 minutes, no mood or intent filter that matches what she wants.
+Finds nothing worth committing to; the 15,000 titles produce zero decisions.
+Closes the app having watched nothing.
+Walks to the shelf and plays a DVD she already knows.
+- **Core frustration, where the process feels most "broken":** Core frustration — the moment it feels most broken
+The instant she closes a 15,000-title app with nothing to watch and reaches for a disc. Maximum choice, zero payoff, and the product she pays for just lost to a shelf.
+- **The evidence, a quote or behavior from the research:** The evidence
+“There’s 15,000 titles but nothing I actually want. I ended up going back to a DVD.” (Priya, UXR-01)
+- **Journey map, a shareable link or the map file you committed:** 1 · Arrival
+Opens app, sees a Spotlight shelf of ~8 hand-picked films
+State: curious, not yet overwhelmed
+Pain addressed: the 20-minute scroll through 15,000 titles
+2 · Trust
+Reads a curator's one-line note on why each film is here
+State: intrigued, feels understood by a human
+Pain addressed: genre-matched algorithm with no point of view
+3 · Commitment
+Presses play in under two minutes, watches the whole film
+State: satisfied, evening reclaimed
+Pain addressed: closing the app having watched nothing
