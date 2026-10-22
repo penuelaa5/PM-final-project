@@ -32,3 +32,7 @@ Pain addressed: genre-matched algorithm with no point of view
 Presses play in under two minutes, watches the whole film
 State: satisfied, evening reclaimed
 Pain addressed: closing the app having watched nothing
+4 · Return
+Comes back for next week's refreshed Spotlight picks
+State: loyal, the DVD stays on the shelf
+Pain addressed: the habit decaying toward cancellation
