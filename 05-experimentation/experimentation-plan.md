@@ -1,25 +1,28 @@
-# Experimentation Plan
+# Experimentation Plan (Module 5)
 
-> **Module 5 · ★ Deliverable 5.** Repo file `05-experimentation/experimentation-plan.md` — part of your submission.
-> Do the lab in the **Module 5 · Exercise Guide** (linked from the Module 5 deck), then click **⬇ Download .md** — it saves as this exact file. Commit it here.
-> It becomes the **Experimentation Plan** slide of your Module 6 final deck.
+## Get your documents ready
+- **From M3, your hypothesis sentence:** Based on Aisha’s signal that discovery feels like a chore her segment opts out of, and the Snapshot 3 finding that Wanderers churn 22 points lower when exposed to Spotlight (the largest effect of any segment, across 41% of the base), I believe that removing the effort of discovery for the Wanderer, surfacing a human-curated rail instead of a passive trending feed, will lift the 20-minute watch rate and flatten the Month 0→1 retention leak. I will measure success as a double-digit lift in the 20-minute watch rate among exposed Wanderers over a matched holdout within 6 to 8 weeks, protect Power User session length and 58% curated share as the guardrail, and make the go/no-go-to-scale decision once the Spotlight cohorts reach Month 5 to 6 and the flatter retention curve holds.
+- **From M3, your primary success metric & guardrail metric:** Curated-content engagement rate among exposed Wanderers — specifically, the share of Wanderer sessions that start a curated title and reach a meaningful watch threshold (say 20+ minutes). This is the leading indicator that the discovery gap is closing before churn numbers mature. Secondary leading signal: Wanderer sessions per week moving off the 1.1 floor.
+- **From M4, the feature you scoped in your PRD this is what you're testing:** A1 Spotlight Curated Rail — the core intervention. A default hand-picked rail that replaces the zero-payoff scroll with zero effort from the user.
 
-## Overview
+## Define your experiment parameters
+- **Feature under test pull from your M4 PRD:** A1 Spotlight Curated Rail: a default-on, human-curated rail of 6–10 titles at the top of the home screen that replaces the algorithmic scroll, requiring zero input from the viewer.
+- **Persona pull your M2 persona:** The Wanderer: 41% of the base, $8.40 LTV, 1.1 sessions/week, 18% curated / 61% trending. Opens the app passively, finds no payoff, drifts toward churn.
+- **Expected outcome the behaviour change you expect, from your M3 hypothesis:** Exposed Wanderers pick a title from the rail quickly and stay with it, shifting from passive trending consumption to curated content they actually finish.
+- **Primary success metric the one number that defines success, from M3:** 20-minute watch rate: the share of exposed Wanderer sessions in which the viewer starts a rail title and reaches 20 continuous minutes.
+- **Baseline rate today's rate of your primary metric, from your M3 data:** 11% (proxy).
+- **Guardrail metric & boundary what must not break, and how far it can move before you investigate:** Power User session length and curated-content share (currently 58%) must not drop. Boundary: investigate and pause expansion if either falls more than 5% relative from its pre-test level. Secondary guardrail: overall app session-completion rate must not worsen.
+- **Minimum Detectable Effect (MDE) the smallest improvement worth shipping, your floor:** 2 percentage points (11% → 13%). The smallest lift worth shipping.
+- **Sample size per arm use the calculator in the builder, baseline + MDE:** 4,100
+- **Traffic split & test duration 50/50 standard · cover ≥ 2 weekly cycles:** 50/50. ~2–3 weeks, floored at ≥2 weekly cycles for seasonality. Sessions pool across the whole Wanderer segment, so sample accrues in days; the 2-cycle floor governs, not the 1.1-sessions/week cadence.
+- **Significance threshold p < 0.05 is standard, explain any deviation:** p < 0.05
 
-_A high-level validation strategy to test your hypothesis before full-scale development._
+## Define your control and variant
+- **Control (A) the current experience, reference your M2 moment of misery and M3 funnel/workflow data:** Today’s home screen with no Spotlight rail, shown to the Wanderer holdout, algorithmic rows only over the 15,000-title catalog, which is the moment of misery (scroll, no payoff, leave).
+- **Variant (B) your single change, copy the relevant screens & functional requirements from your M4 PRD:** The identical home screen plus one addition, the Spotlight Curated Rail (“Picked by StreamLine editors this week”), a default-on row of 6–10 human-curated titles playable in ≤2 taps, served to the Wanderer cohort (prototype: https://twenty-minute-watch-quest.lovable.app/).
+- **Isolation check, what has NOT changed? list everything identical between arms (app version, recommendation engine, notifications, onboarding). If something changed inadvertently, your test is compromised.:** Identical in both arms: the recommendation engine and existing rows (Trending Now, Because You Watched, Top 10), layout, onboarding, notifications, app version, catalog, pricing, and playback reliability (BUG-1042/1061 held in the same state).
 
-_____
-
-## What you're testing
-
-| Element | Detail |
-|---|---|
-| Hypothesis under test | _____ |
-| Experiment design (A/B, etc.) | _____ |
-| Primary metric | _____ |
-| Guardrail metric | _____ |
-| Decision rule (ship / kill / pivot) | _____ |
-
-## Findings & decision _(after running it)_
-
-_____
+## Formalize your hypothesis & shipping criteria
+- **Your hypothesis (filled in):** I believe that the A1 Spotlight Curated Rail for the Wanderer will result in more Wanderers starting a rail title and staying with it for at least 20 minutes, as measured by a 2-percentage-point increase (11% → 13%) in the 20-minute watch rate within 2–3 weeks. We will protect Power User session length and 58% curated-content share throughout the test.
+- **Your shipping criteria (filled in):** We will SHIP if the 20-minute watch rate improves by ≥2 percentage points (to ≥13%) at p < 0.05, and Power User session length and 58% curated share have not fallen more than 5% relative to their pre-test level after the test window.
+- **Hardest parameter to define, and did it change your hypothesis? quick debrief:** The baseline. My primary metric is the Wanderer 20-minute watch rate, but that exact number isn’t in my data, the closest figure (11% reaching 30+ min) is all-user, at a 30-minute threshold, and almost certainly overstates Wanderers since they’re the least-engaged segment.
